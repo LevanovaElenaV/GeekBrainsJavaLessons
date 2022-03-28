@@ -40,8 +40,7 @@ public class Lesson2
     public static boolean checkNegative(int val)
     //  проверка числа на отрицательность
     {
-        return (val < 0)
-    }
+        return (val < 0);    }
 
     public static void printN(String str, int n)
     // печать строку n раз
