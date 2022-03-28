@@ -25,10 +25,6 @@ public class Lesson2
     {
         int sum = a + b;
         return ((summa >= 10) && (summa <= 20 ));
-            return true;
-        } else {
-             return false;
-        }
     }
 
     public static void checkValue (int val)
