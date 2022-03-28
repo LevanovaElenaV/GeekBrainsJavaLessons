@@ -44,11 +44,7 @@ public class Lesson2
     public static boolean checkNegative(int val)
     //  проверка числа на отрицательность
     {
-        if (val < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (val < 0)
     }
 
     public static void printN(String str, int n)
