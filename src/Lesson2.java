@@ -23,7 +23,7 @@ public class Lesson2
     public static boolean checkSum (int a, int b)
     // проверка суммы чисел на принадлежность диапазону [10; 20]
     {
-        int summa = a + b;
+        int sum = a + b;
         if ((summa >= 10) && (summa <= 20 )) {
             return true;
         } else {
