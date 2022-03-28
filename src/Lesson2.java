@@ -24,7 +24,7 @@ public class Lesson2
     // проверка суммы чисел на принадлежность диапазону [10; 20]
     {
         int sum = a + b;
-        if ((summa >= 10) && (summa <= 20 )) {
+        return ((summa >= 10) && (summa <= 20 ));
             return true;
         } else {
              return false;
