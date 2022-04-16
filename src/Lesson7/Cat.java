@@ -33,6 +33,9 @@ public class Cat {
             System.out.println(name + " аппетит отсутствует, т.к. нажрался ранее" );
             return;
         }
+        if (plate.food == 0) {
+            System.out.println(" К сожалению еда закончилась! ");
+        }
         appetite -= plate.decreaseAllFood(appetite);
         System.out.println(name + " ел, на данный момент имеет аппетит " + appetite );
     }
