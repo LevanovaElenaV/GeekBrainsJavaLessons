@@ -14,7 +14,7 @@ public class Cat {
 
     public void eat(Plate plate) {
         // кошки отказываются есть, если еды мало
-        if (satiety == true) {
+        if (satiety) {
             System.out.println(name + " спит. Сытость: " + satiety);
             return;
         }
