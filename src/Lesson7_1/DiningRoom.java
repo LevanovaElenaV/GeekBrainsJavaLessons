@@ -8,6 +8,7 @@ public class DiningRoom {
             Cat cat4 = new Cat("Васька", 70);
             Cat cat5 = new Cat("Феликс", 100);
 
+
             Plate plate1 = new Plate(100);
             plate1.info();
 
